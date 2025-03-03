@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(31, 31, 31);
+  color: white;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Day,
+#Date,
+#Time,
+#hour-mode {
+  display: flex;
+}
+.margin-giver {
+  margin: 0.5rem;
+}
+#Time > p {
+  padding: 1rem;
+}
+.Am_pm {
+  margin-left: 2rem;
+}
